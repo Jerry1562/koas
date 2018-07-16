@@ -1,0 +1,22 @@
+{
+  "name": "koas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server/mainServer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "jsonwebtoken": "^8.3.0",
+    "koa": "^2.5.1",
+    "koa-body": "^4.0.3",
+    "koa-jwt": "^3.3.2",
+    "koa-route": "^3.2.0",
+    "koa-static": "^5.0.0",
+    "mongodb": "^3.0.10",
+    "sha1": "^1.1.1"
+  }
+}
